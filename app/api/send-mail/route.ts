@@ -17,7 +17,7 @@ export async function POST(request: NextRequest) {
 
     // Send email using Resend
     const data = await resend.emails.send({
-      from: "onboarding@resend.dev", // Replace with your verified sender email
+      from: "imailjim@gmail.com", // Replace with your verified sender email
       to: email,
       subject: `We received your message, ${name}!`,
       html: `
